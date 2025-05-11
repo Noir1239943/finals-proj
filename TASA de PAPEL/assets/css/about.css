@@ -1,0 +1,35 @@
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    background: #161515f5;
+    gap: 1.5rem;
+    padding-top: 150px;
+}
+.about-img{
+    flex: 1 1 17rem;
+}
+.about1-img img{
+    height: 300px;
+    width: 300px;
+}
+.about-text{
+    flex: 1 1 17rem;
+}
+.about-text h2{
+    font-size: 1.2rem;
+    color: yellow;
+}
+.about-text p{
+    margin: 0.5rem 0 1rem;
+    text-align: justify;
+    color: #fff;
+}
+.aboutbg{
+    background: black;
+    color: #fff;
+}
+.about3-img{
+    height: 400px;
+    width: 380px;
+}
+

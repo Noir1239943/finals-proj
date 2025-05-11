@@ -1,0 +1,23 @@
+.app{
+    padding-top: 130px;
+}
+.header{
+    padding: 20px;
+}
+.app-text p{
+    margin: 0.5rem 0 1rem;
+    text-align: justify;
+}
+.app-text h2{
+    font-size: 1.2rem;
+}
+.app-text{
+    flex: 1 1 21rem;
+}
+.app-img{
+    flex: 1 1 21rem;
+}
+.app-img img{
+    height: 250px;
+    width: 390px;
+}

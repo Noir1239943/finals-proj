@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+.delivery-img{
+    flex: 1 1 21rem;
+}
+.delivery-img img{
+    height: 300px;
+}
+.delivery-text{
+    flex: 1 1 21rem;
+}
+.delivery-text h2{
+    font-size: 1.2rem;
+}
+.delivery-text p{
+    margin: 0.5rem 0 1rem;
+    text-align: justify;
+}
+.map-canvas {
+    width:100%;
+    height: 100%;
+    text-align: center;
+    padding: 50px;
+   }
+  .screen {
+    background-color: #c5c3ba;
+    margin: 0 auto 0;
+    border: 0.189em solid #aba99f;
+    border-radius: 0.189em;
+    width:500px;
+    height:17.892em;
+  }

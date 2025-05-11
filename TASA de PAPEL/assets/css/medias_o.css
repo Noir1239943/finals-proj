@@ -1,0 +1,158 @@
+@media (max-width: 1024px){
+    header{
+        padding: 18px 7%;
+    }
+    section{
+        padding: 50px 7%;
+    }
+    .home-text h1{
+        font-size: 3rem;
+    }
+    .home-text h2{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 911px){
+    header{
+        padding: 18px 4%;
+    }
+    section{
+        padding: 50px 4%;
+    }
+}
+
+@media (max-width: 768px){
+    header{
+        padding: 11px 4%;
+    }
+ #menu-icon{
+        display: flex;
+    }
+.menushow{
+    border:1px solid red
+};
+    .navbar{
+        position: absolute;
+        margin-top: 40px;
+        left: 0;
+        right: 0;
+        display: none;
+        flex-direction: column; 
+        background: #fff;
+        box-shadow: 0 4px 4px rgba(14 55 54 / 14%);
+        border-top: 2px solid var(--main-color);
+        transition: 0.2;
+        text-align: left;
+        width: 30%;
+    }
+  
+    .navbar .active{
+        top: 100%;
+    } 
+    .navbar a{ 
+        padding: 0.5rem;
+        display: block;
+        color: var(--second-color);
+    }
+    .home-img{
+        width: 100%;
+    }
+    .home-img img{
+        height: 300px;
+        width: 300px;
+    }
+    .home-text span{
+        font-size: 0.9rem;
+    }
+    .home-text h1{
+        font-size: 2.4rem;
+    }
+    .home-text h2{
+        font-size: 1.2rem;
+    }
+    .about-text{
+        padding-top: 100px;
+    }
+    .app-img img{
+        height: 250px;
+        width: 500px;
+        padding-left: 150px;
+    }
+    .heading h1{
+        font-size: 1.5rem;
+    }
+    .heading span{
+        font-size: 0.9rem;
+    }
+    .about{
+        flex-direction: column-reverse;
+    }
+    .about1-img img{
+        width: 500px;
+        height: 350px;
+        padding-left: 110px;
+    }
+    .about3-img img{
+        width: 500px;
+        height: 400px;
+        padding-left: 100px;
+    }
+}
+
+
+
+@media (max-width: 640px){
+    header{
+        padding: 11px 4%;
+    }
+    #menu-icon{
+        display: flex;
+        margin-right: 40px;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+    }
+    .app-img img{
+        height: 220px;
+        width: 500px;
+        padding: 0 50px;
+    }
+    .home-text{
+        padding-top: 50px;
+        text-align: center;
+    }
+    .home-img img{
+        height: 200px;
+        width: 500px;
+        padding: 0 50px;
+    }
+    .about-img{
+        padding-top: 20px;
+    }
+    .about-text h2{
+        text-align: center;
+        gap: 1.5rem;
+    }
+    .shop-img img{
+        width: 400px;
+        padding-left: 100px;
+    }
+    .Starbucks{
+        padding-top: 100px;
+    }
+    .screens{
+        width: 50px;
+    }
+    .about1-img img{
+        width: 500px;
+        height: 300px;
+        padding: 0px 80px;
+    }
+    .about3-img img{
+        width: 500px;
+        height: 300px;
+        padding: 0px 50px;
+    }
+}
